@@ -15,3 +15,8 @@
 </p>
 
 
+🌟 Overview
+This project predicts whether a loan application will be Approved ✅ or Rejected ❌
+using Machine Learning.
+
+
