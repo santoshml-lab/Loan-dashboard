@@ -32,3 +32,15 @@ Render
 ✔️ Clean UI
 ✔️ Fast API
 ✔️ Cloud deployed
+
+🧠 How it Works
+User inputs data
+API processes request
+Model predicts result
+UI displays output
+
+
+⭐ Support
+Give a ⭐ if you like this project!
+
+
