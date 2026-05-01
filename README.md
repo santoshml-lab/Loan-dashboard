@@ -1,6 +1,4 @@
-<p align="center">
-
-<a [href="https://">](https://k4xhu9dccczizmzuoysnup.streamlit.app/)
+<a href="https://k4xhu9dccczizmzuoysnup.streamlit.app/">
   <img src="https://img.shields.io/badge/🟢%20Live%20App-Open-green?style=for-the-badge">
 </a>
 
