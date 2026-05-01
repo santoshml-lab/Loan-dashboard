@@ -26,3 +26,9 @@ FastAPI
 Scikit-learn
 HTML, CSS, JavaScript
 Render
+
+🚀 Features
+✔️ Real-time prediction
+✔️ Clean UI
+✔️ Fast API
+✔️ Cloud deployed
