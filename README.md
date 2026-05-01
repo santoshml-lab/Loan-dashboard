@@ -20,3 +20,9 @@ This project predicts whether a loan application will be Approved ✅ or Rejecte
 using Machine Learning.
 
 
+⚙️ Tech Stack
+Python
+FastAPI
+Scikit-learn
+HTML, CSS, JavaScript
+Render
