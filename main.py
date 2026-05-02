@@ -40,23 +40,26 @@ def home():
 
 @app.post("/predict")
 def predict(data: InputData):
-    input_list = [[
-        data.no_of_dependents,
-        data.education,
-        data.self_employed,
-        data.income_annum,
-        data.loan_amount,
-        data.loan_term,
-        data.cibil_score,
-        data.residential_assets_value,
-        data.commercial_assets_value,
-        data.luxury_assets_value,
-        data.bank_asset_value
-    ]]
+    import pandas as pd
 
-    prediction = model.predict(input_list)[0]
+    input_df = pd.DataFrame([{
+        "no_of_dependents": data.no_of_dependents,
+        "education": data.education,
+        "self_employed": data.self_employed,
+        "income_annum": data.income_annum,
+        "loan_amount": data.loan_amount,
+        "loan_term": data.loan_term,
+        "cibil_score": data.cibil_score,
+        "residential_assets_value": data.residential_assets_value,
+        "commercial_assets_value": data.commercial_assets_value,
+        "luxury_assets_value": data.luxury_assets_value,
+        "bank_asset_value": data.bank_asset_value
+    }])
+
+    prediction = model.predict(input_df)[0]
 
     return {
         "prediction": int(prediction),
         "result": "Approved ✅" if prediction == 1 else "Rejected ❌"
     }
+
