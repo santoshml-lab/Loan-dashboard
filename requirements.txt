@@ -1,6 +1,0 @@
-scikit-learn==1.3.2
-joblib
-streamlit
-pandas
-numpy
-xgboost
